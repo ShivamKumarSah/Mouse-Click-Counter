@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 75%; margin: 50px auto;
+    /* border: 1px solid dodgerblue; */
+    grid-template-rows: 200px 60px 100px;
+
+}
+
+/* .outer-wrapper{
+    border:1px solid rgb(119, 3, 3);
+    grid-template-rows: 200px 60px;
+
+}
+.inner-wrapper{
+    border:1px solid rgb(0, 0, 0);
+
+}
+.main-container{
+    border:1px solid green;
+
+    
+} */
+/* .heading-container{
+    border:1px solid red;
+} */
+.heading{
+    color: dodgerblue;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p{
+    color:rgb(34, 34, 34);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#click-description{
+    display: none;
+    font-size: 20px;
+}
+#clicks{
+    color: rgb(204, 0, 255);
+    font-size: larger;
+}
+/* .counter-container{
+    border:1px solid rgb(248, 9, 216);
+} */
+/* .button-container{
+    border:1px solid purple;
+} */
+#click-here{
+    background-color: white;
+    border: 2px solid dodgerblue;
+    border-radius: 4px;
+    padding: 15px;
+    color: dodgerblue;
+    cursor: pointer;
+    font-family: cursive;
+    font-weight: 700;
+}
+#click-here:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+/* .credit-outer-container{
+    border:1px solid rgb(230, 15, 0);
+
+    
+}
+.credit-container{
+    border:1px solid rgb(88, 0, 230);
+
+} */
